@@ -10,6 +10,6 @@ function getRandomRgb() {
     getRandomRgb();
   }
 
-document.getElementById('root').style.backgroundColor = color;
-document.getElementById('output').style.color = color;
-document.getElementById('output').innerText = color;
+document.getElementById('change-btn').addEventListener('click',function(){
+    document.getElementById('root').style.backgroundColor = getRandomRgb();
+})
