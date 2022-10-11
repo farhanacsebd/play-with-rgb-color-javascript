@@ -23,7 +23,7 @@ style start from here
 	width: 100%;
 }
 
-button {
+.btn-main {
 	padding: 1rem 3rem;
 	margin: 1rem 0;
 	margin-top: 30px;
@@ -39,7 +39,7 @@ button {
 
 }
 
-button:hover {
+.btn-main:hover {
 	background-color: #fff;
 	color: #000;
 	border: 1px solid #000;
@@ -51,6 +51,13 @@ button:hover {
 h1{
 	text-shadow:0 0 6px #f9f6f6;
 }
-div .output{
-    border: 2px solid #f9f6f6;
+
+#output {
+	background: #ecf0f1;
+	color: #2c3e50;
+    /* text-shadow: 0 0 3px rgb(0, 0, 0); */
+	width: 15rem;
+	text-align: center;
+	border-radius: 7px;
+    /* padding: 1rem; */
 }
