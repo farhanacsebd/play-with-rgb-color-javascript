@@ -9,7 +9,12 @@ function getRandomRgb() {
   for (var i = 0; i < 10; i++) {
     getRandomRgb();
   }
+// only getRandomRgb() function is bring by stackflow
+
+
 
 document.getElementById('change-btn').addEventListener('click',function(){
     document.getElementById('root').style.backgroundColor = getRandomRgb();
+    document.getElementById('output').innerText = getRandomRgb();
+    document.getElementById('output').style.color = getRandomRgb();
 })

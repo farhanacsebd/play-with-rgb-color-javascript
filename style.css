@@ -51,4 +51,6 @@ button:hover {
 h1{
 	text-shadow:0 0 6px #f9f6f6;
 }
-
+div .output{
+    border: 2px solid #f9f6f6;
+}
