@@ -1,3 +1,4 @@
+// only getRandomRgb() function is bring by stackoverflow
 function getRandomRgb() {
     var num = Math.round(0xffffff * Math.random());
     var r = num >> 16;
@@ -9,12 +10,20 @@ function getRandomRgb() {
   for (var i = 0; i < 10; i++) {
     getRandomRgb();
   }
-// only getRandomRgb() function is bring by stackflow
 
 
+
+// this document function is get bgcolor,color or value; 
 
 document.getElementById('change-btn').addEventListener('click',function(){
-    document.getElementById('root').style.backgroundColor = getRandomRgb();
-    document.getElementById('output').innerText = getRandomRgb();
-    document.getElementById('output').style.color = getRandomRgb();
+    const color = getRandomRgb(); 
+    document.getElementById('root').style.backgroundColor = color;
+    document.getElementById('output').style.color = color;
+    const output = document.getElementById('output');
+    output.value = color;
 })
+
+
+
+
+

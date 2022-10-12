@@ -13,7 +13,7 @@ style start from here
 -------------------------------------------------------------------- */
 
 .container {
-	background-color: #7c4ab4;
+	background-color: rgb(204,153,255);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
