@@ -24,6 +24,13 @@ document.getElementById('change-btn').addEventListener('click',function(){
 })
 
 
+/*
+copy korar jonne window.navigator/navigator use kora hoy.tar modhe ache writeText nam er ekta function tar modhe copy hoy jay
+*/
 
 
+document.getElementById('copy-btn').addEventListener('click',function(){
 
+  navigator.clipboard.writeText(output.value)
+
+})
